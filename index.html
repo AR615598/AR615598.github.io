@@ -1,108 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Alexander Ramirez</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-     
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #66ffcc;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
-  </style>
-</head>
-<body>
-    
-    
+   <head>
+      <title>Alexander Ramirez</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="stylesheet" href = "css/style.css">
+      <script src= "js/scripts.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+      </style>
+   </head>
+   <body>
+      <i id = "scrollFooter"
+         class="fa fa-arrow-circle-down item" 
+         style="font-size:45px"></i>
+      <div class = "navbubble" >
+         <a href="#landingPage" class="navItem nav-icon" style="background-position: 0px 0px;">
+         <i class="fa fa-home nav-icon" style="font-size:36px;"></i>
+         <b>&nbsp; home</b>
+         </a>
+         <a href="#aboutMe"class="navItem nav-icon">
+         <i class="material-icons nav-icon" style="font-size:36;">person</i>
+         &nbsp; about
+         </a>
+         <a href="#projects"class="navItem nav-icon">
+         <i class="material-icons nav-icon" style="font-size:36px;">code</i>
+         &nbsp; projects
+         </a>
+         <a href="#contact"class="navItem nav-icon">
+         <i class="material-icons nav-icon" style="font-size:36px;">email</i>
+         &nbsp; contact
+         </a>
+      </div>
+      <section class = "launchRadialBkgrd" id="landingPage">
+         <div class = "text">
+            <div class = "line">
+               <div class = "word"> Alexander</div>
+               <div class = "word"> Ramirez</div>
+            </div>
+            <div class = "line">
+               <div class = "word"> Programmer</div>
+               <div class = "word"> &</div>
+            </div>
+            <div class = "line">
+               <div class = "word"> CS Student</div>
+               <div class = "word"> @UMD</div>
+            </div>
+            <div class = "line">
+               <a id = "git_link" 
+                  target = "_blank" 
+                  href = "https://github.com/AR615598" 
+                  class = "word fancy"
+                  rel=”noopener”
+                  > 
+               <i class="fa fa-github git_letter" style="font-size:clamp(2rem,7vw,10rem)"></i><span class = "git_letter">g</span><span class = "git_letter">i</span><span class = "git_letter">t</span><span class = "git_letter">h</span><span class = "git_letter">u</span><span class = "git_letter">b</span><span class = "git_letter">&nbsp;</span><span class = "git_letter">&nbsp;</span>
+               </a>
+               <a id  = "link_link" 
+                  target = "_blank" 
+                  href = "https://www.linkedin.com/in/Aramirez01/" 
+                  class = "word fancy"
+                  rel=”noopener”> 
+               <i style="font-size:clamp(2rem,7vw,10rem)" class="fa link_letter">&#xf08c;</i><span class = "link_letter">L</Label></span><span class = "link_letter">i</span><span class = "link_letter">n</span><span class = "link_letter">k</span><span class = "link_letter">e</span><span class = "link_letter">l</span><span class = "link_letter">d</span><span class = "link_letter">n</span>
+               </a>
+            </div>
+         </div>
+      </section>
+      <div class = "spacer wave"></div>
+      <section class = "container"id="aboutMe">
+         <h2 id = "header" class = "gridColTitle"><b>About Me</b></h2>
+         <div id = "img" class = "profilePic"></div>
+         <div  id = "Education" class = "skillBox">
+            <h3><b>Education</b></h3>
+            Coursework: Data Science, Programming for Data Science, Java, Object‑oriented programming, program design, data structures, algorithms
+            and algorithm analysis, C, procedural programming, Python, Ruby, OCaml, Functional Programming, SQL (PostgreSQL), UNIX environments,
+            calculus, linear Algebra, Statistic
+         </div>
+         <div id = "skills "class = "skillBox">
+            <h3><b>Skills</b></h3>
+            Python, Pandas, Beautiful Soup, NumPy, matplotlib, spaCy, NLTK, , Machine Learning, Natural Language Processing, C, Java,
+            OCaml, Ruby, SQL, HTML ,CSS, JavaScript
+         </div>         
+         <div class = "textBox gridRowSpan3" style="font-size: 1.25em">
+            <p>Hello and welcome to my website! My name is Alex, and I'm a computer science student at the University of Maryland College Park, specializing in software engineering and data science. I've always had a keen interest in computers and engineering, which motivates me to develop solutions to complex problems that can impact people's lives positively in the future.</p>
+            <p>Throughout my academic journey, I've worked on a diverse range of projects, both in my coursework and personal endeavors. This has enabled me to gain experience in multiple programming paradigms and languages, including data science, machine learning, algorithms, and computer systems. I have also taken on personal projects, such as developing machine learning models, GUIs, and other algorithms, which have helped me enhance my skills and knowledge in these areas.</p>
+            <p>I'm well-versed in several programming languages, but my proficiency lies in Python, C, and Java. Python is my favorite language because of its rich collection of tools and packages, especially in the field of machine learning. However, I'm always eager to learn new things, and I'm currently expanding my knowledge of CSS and JavaScript for this website.</p>
+            <p>Apart from technical skills, I enjoy staying active and exploring the outdoors in my free time. I've been swimming and hiking since a young age and have even competed in swimming tournaments. I was also part of the Boy Scouts, where I achieved the rank of Eagle Scout.</p>
+            <p>Thank you for visiting my website. Please feel free to contact me if you have any questions or inquiries.</p>
 
-
-
-<div class="jumbotron text-center">
-  <h1>Hello, my name is Alexander Ramirez</h1> 
-  <p>Here are my links to some of my favorite projects, notes, and other socials.
-  </p> 
-  <p>(links broken WIP)</p>
-  <div class="btn-group">
-    <button type="button" class="btn btn-primary"onclick="window.location.href='https://w3docs.com';">Projects</button>
-    <button type="button" class="btn btn-success"onclick="window.location.href='https://w3docs.com';">Notes</button>
-    <button type="button" class="btn btn-info"onclick="window.location.href='https://w3docs.com';">Github</button>
-    <button type="button" class="btn btn-warning"onclick="window.location.href='https://w3docs.com';">linkedin</button>
-    <button type="button" class="btn btn-danger"onclick="window.location.href='https://w3docs.com';">Files</button>
-    </div>
-</div>
-
-
-
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3><b>About Me</b></h3>
-      <p>I am a junior studying computer science and philosophy at the University 
-        of Maryland, College Park in the class of 2024. My primary interests are 
-        in artificial intelligence, specifically deep learning and natural language 
-        processing. I believe some of my strengths are adaptability and
-        ability to work collaboratively.</p>
-
-      <p>I am most interested in machine learning because it
-        broke all my notions on how computers work and how to code. 
-        I always thought computers were just machines that do math quickly 
-        but are incapable of doing anything if not ordered to. But machine 
-        learning flipped that notion on its head,  not only can models can 
-        learn patterns and trends adjust themselves following the patterns 
-        to make the most informed decisions possible. </p>
-
-      <p>Currently, I am working on a couple of projects in machine learning. 
-        One group of them is, making my implementation of different models, 
-        I have completed a single-layered perceptron and plan on working 
-        on a K-nearest neighbor algorithm next. The goal of the previous 
-        projects is to gain a better understanding of machine learning 
-        so I can begin working on my long-term project of developing 
-        a chess engine.</p>
-    </div>
-    <div class="col-sm-4">
-      <h3><b>Education </b></h3>
-      <p>University of Maryand, College Park</p>
-      <p>Sept 2020 - May 2024</p>
-    </div>
-  </div>
-</div>
-
-</body>
-<footer class="footer">
-                    <p>None of these links go to the intended pages</p>
-                    <p>
-                    <a href="2021fall/index.html">heheha</a>,
-                    <a href="2021summer/index.html">heheha</a>,
-                    <a href="2021spring/index.html">heheha</a>,
-                    <a href=2020/index.html>heheha</a>,
-                    <a href="2019/index.html">heheha</a>,
-                    <a href="http://www.cs.umd.edu/class/fall2018/cmsc320/">heheha</a>,
-                    <a href="https://umd.instructure.com/courses/1227895">heheha</a>,
-                    <a href="http://www.cs.umd.edu/class/spring2017/cmsc320/">heheha</a>
-                    </p>
-                </footer>
-</html>
+         </div>
+      </section>
+      <section class = "container" id="projects">
+         <h2><b>Projects</b></h2>
+         <div class="cardHolder">
+            <div class="card">
+               <div class = "cardContent"id = "1">      
+                  <h3 class = 'cardTitle'>Project 1</h3>         
+                  <h5 class = "hide hidden-child"> longer title</h5>
+               </div>            
+            </div>
+            <div class="card" id = "2">
+               <div class = "cardContent"id = "parent">      
+                  <h3 class = 'cardTitle'>Project 1</h3>         
+                  <h5 class = "hide hidden-child"> longer title</h5>
+               </div>    
+            </div>
+            <div class="card" id = "3" >
+               <div class = "cardContent"id = "parent">      
+                  <h3 class = 'cardTitle'>Project 1</h3>         
+                  <h5 class = "hide hidden-child"> longer title</h5>
+               </div>    
+             </div>
+            <div class="card" id = "4">
+               <div class = "cardContent"id = "parent">      
+                  <h3 class = 'cardTitle'>Project 1</h3>         
+                  <h5 class = "hide hidden-child"> longer title</h5>
+               </div>    
+            </div>
+          </div>
+      </section>
+      <section class = "container" id="contact">
+         <h2><b>Contact/Files</b></h2>
+         <button href="/assets/Resume (1).pdf">Resume</button>
+      </section>
+      <section class = " ">
+      </div>
+   </body>

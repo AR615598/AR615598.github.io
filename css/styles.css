@@ -1,0 +1,42 @@
+
+nav ul {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+@function randomNum($min, $max) {
+  $rand: random();
+  $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+  @return $randomNum;
+}
+
+@-webkit-keyframes vibrate {
+  from,to {
+    transform: translateY(randomNum(-5, 0)px);
+  }
+
+  50% {
+    transform: translateY(randomNum(0, 5)px);
+  }
+}
+
+@keyframes vibrate {
+  from,to {
+    transform: translateY(randomNum(-5, 0)px);
+  }
+
+  50% {
+    transform: translateY(randomNum(0, 5)px);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
