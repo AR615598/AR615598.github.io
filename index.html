@@ -11,6 +11,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
       <style>
          @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
       </style>
@@ -58,14 +59,14 @@
                   class = "word fancy"
                   rel=”noopener”
                   > 
-               <i class="fa fa-github git_letter" style="font-size:clamp(2rem,7vw,10rem)"></i><span class = "git_letter">g</span><span class = "git_letter">i</span><span class = "git_letter">t</span><span class = "git_letter">h</span><span class = "git_letter">u</span><span class = "git_letter">b</span><span class = "git_letter">&nbsp;</span><span class = "git_letter">&nbsp;</span>
+               <i class="fab fa-github git_letter" style="font-size:clamp(2rem,7vw,10rem)"></i><span class = "git_letter">g</span><span class = "git_letter">i</span><span class = "git_letter">t</span><span class = "git_letter">h</span><span class = "git_letter">u</span><span class = "git_letter">b</span><span class = "git_letter">&nbsp;</span><span class = "git_letter">&nbsp;</span>
                </a>
                <a id  = "link_link" 
                   target = "_blank" 
                   href = "https://www.linkedin.com/in/Aramirez01/" 
                   class = "word fancy"
                   rel=”noopener”> 
-               <i style="font-size:clamp(2rem,7vw,10rem)" class="fa link_letter">&#xf08c;</i><span class = "link_letter">L</Label></span><span class = "link_letter">i</span><span class = "link_letter">n</span><span class = "link_letter">k</span><span class = "link_letter">e</span><span class = "link_letter">l</span><span class = "link_letter">d</span><span class = "link_letter">n</span>
+               <i style="font-size:clamp(2rem,7vw,10rem)" class="fab fa-linkedin link_letter"></i><span class = "link_letter">L</Label></span><span class = "link_letter">i</span><span class = "link_letter">n</span><span class = "link_letter">k</span><span class = "link_letter">e</span><span class = "link_letter">l</span><span class = "link_letter">d</span><span class = "link_letter">n</span>
                </a>
             </div>
          </div>
@@ -82,51 +83,84 @@
          </div>
          <div id = "skills "class = "skillBox">
             <h3><b>Skills</b></h3>
-            Python, Pandas, Beautiful Soup, NumPy, matplotlib, spaCy, NLTK, , Machine Learning, Natural Language Processing, C, Java,
+            Python, Pandas, Beautiful Soup, NumPy, matplotlib, spaCy, NLTK, Machine Learning, Natural Language Processing, C, Java,
             OCaml, Ruby, SQL, HTML ,CSS, JavaScript
-         </div>         
+         </div>
          <div class = "textBox gridRowSpan3" style="font-size: 1.25em">
             <p>Hello and welcome to my website! My name is Alex, and I'm a computer science student at the University of Maryland College Park, specializing in software engineering and data science. I've always had a keen interest in computers and engineering, which motivates me to develop solutions to complex problems that can impact people's lives positively in the future.</p>
             <p>Throughout my academic journey, I've worked on a diverse range of projects, both in my coursework and personal endeavors. This has enabled me to gain experience in multiple programming paradigms and languages, including data science, machine learning, algorithms, and computer systems. I have also taken on personal projects, such as developing machine learning models, GUIs, and other algorithms, which have helped me enhance my skills and knowledge in these areas.</p>
             <p>I'm well-versed in several programming languages, but my proficiency lies in Python, C, and Java. Python is my favorite language because of its rich collection of tools and packages, especially in the field of machine learning. However, I'm always eager to learn new things, and I'm currently expanding my knowledge of CSS and JavaScript for this website.</p>
             <p>Apart from technical skills, I enjoy staying active and exploring the outdoors in my free time. I've been swimming and hiking since a young age and have even competed in swimming tournaments. I was also part of the Boy Scouts, where I achieved the rank of Eagle Scout.</p>
             <p>Thank you for visiting my website. Please feel free to contact me if you have any questions or inquiries.</p>
-
          </div>
       </section>
       <section class = "container" id="projects">
          <h2><b>Projects</b></h2>
          <div class="cardHolder">
-            <div class="card">
-               <div class = "cardContent"id = "1">      
-                  <h3 class = 'cardTitle'>Project 1</h3>         
-                  <h5 class = "hide hidden-child"> longer title</h5>
-               </div>            
+            <div class="card" id = "1">
+               <div class = "cardContent" id= "parent" >
+                  <h3 class = 'cardTitle'>ML Algorithms</h3>
+                  <h5 class = "hide hidden-child">
+                     <p>Some popular machine learning algorithms that can be implemented using Python:</p>
+                     <p><b>Single-Layer Perceptron:</b> neural network that consists of a single layer of output nodes that directly map inputs to outputs through a set of adjustable weights.</p>
+                  </h5>
+                  <a class = "projButton hide hidden-child"href="https://github.com/AR615598/bad_perceptron"target="_blank"><p style = "padding-top: .5rem;">LEARN MORE</p></a>
+
+               </div>
             </div>
             <div class="card" id = "2">
-               <div class = "cardContent"id = "parent">      
-                  <h3 class = 'cardTitle'>Project 1</h3>         
-                  <h5 class = "hide hidden-child"> longer title</h5>
-               </div>    
+               <div class = "cardContent"id = "parent">
+                  <h3 class = 'cardTitle'>Chess Engine Detection</h3>
+                  <h5 class = "hide hidden-child">Python notebook to analyze a large dataset of chess games sourced from Lichess, exploring patterns and trends within the data. Based on these trends, I developed a model that aims to effectively predict whether one of the players in the game is cheating.</h5>
+                  <a class = "projButton hide hidden-child"href="https://ar615598.github.io/CMSC320_final_tutorial/"target="_blank"><p style = "padding-top: .5rem;">LEARN MORE</p></a>
+               </div>
             </div>
-            <div class="card" id = "3" >
-               <div class = "cardContent"id = "parent">      
-                  <h3 class = 'cardTitle'>Project 1</h3>         
-                  <h5 class = "hide hidden-child"> longer title</h5>
-               </div>    
-             </div>
-            <div class="card" id = "4">
-               <div class = "cardContent"id = "parent">      
-                  <h3 class = 'cardTitle'>Project 1</h3>         
-                  <h5 class = "hide hidden-child"> longer title</h5>
-               </div>    
+         </div>
+         <div class="cardHolder">
+            <div class="card" id = "1">
+               <div class = "cardContent" id= "parent">
+                  <h3 class = 'cardTitle'>Optimized Path</h3>
+                  <h5 class = "hide hidden-child"> created a Java application that calculates the optimal path between two points, factoring in any obstacles within a given dimension. Users input the starting and ending points, as well as the obstacles, and the application, displays the optimal path that avoids them.</h5>
+                  <a class = "projButton hide hidden-child"href="https://github.com/AR615598/optimized-Path"target="_blank"><p style = "padding-top: .5rem;">LEARN MORE</p></a>
+
+               </div>
             </div>
-          </div>
+            <div class="card" id = "2">
+               <div class = "cardContent"id = "parent">
+                  <h3 class = 'cardTitle'>Website Design</h3>
+                  <h5 class = "hide hidden-child">This website includes all the necessary files, such as HTML, CSS, and JavaScript, to create a dynamic and interactive web page with visually appealing design elements. HTML is used for content, CSS for styling, and JavaScript for adding dynamic behavior.</h5>
+                  <a class = " projButton hide hidden-child"href="https://github.com/AR615598/AR615598.github.io"target="_blank"><p style = "padding-top: .5rem;">LEARN MORE</p></a>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class = "container">
+         <h2><b>Files</b></h2>
+         <a href="/assets/Resume2023.pdf"target="_blank">Resume</a>
       </section>
       <section class = "container" id="contact">
-         <h2><b>Contact/Files</b></h2>
-         <a href="/assets/Resume2023.pdf">Resume</a>
+         <h2><b>Contact</b></h2>
+         <div class="contact-list">
+            <a class="icon-link" href="https://www.instagram.com/sirr_alex/">
+               <i class="fab fa-instagram cont-icon"></i>
+            </a>
+            <a class="icon-link" target="_blank" href="https://github.com/AR615598">
+               <i class="fab fa-github cont-icon"></i>
+            </a>
+            <a class="icon-link" href="https://mail.google.com/mail/?view=cm&to=alexramirez8962@gmail.com">
+               <i class="fas fa-envelope cont-icon"></i>
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/Aramirez01/">
+               <i class="fab fa-linkedin cont-icon"></i>
+            </a>
+            <a class="icon-link" href="/assets/Resume2023.pdf">
+               <i class="fas fa-file-code cont-icon"></i>
+            </a>
+            <a class="icon-link" href="https://www.cs.umd.edu">
+               <i class="fas fa-university cont-icon"></i>
+            </a>
+         </div>
       </section>
-      <section class = " ">
       </div>
    </body>
