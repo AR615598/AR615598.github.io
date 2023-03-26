@@ -389,6 +389,7 @@ span{
   aspect-ratio: 1/1.2;
   border: 0.5vmin solid var(--border);
   position: relative;
+  height: relative;
   width:45%;
   border-radius: 15px;
   display: grid;
@@ -469,31 +470,6 @@ span{
 }           
 
 
-@media screen and (max-width: 800px) {
-  .navbubble{
-    width: 30%;
-    
-  }
-  .navbubble a:not(:first-child) {
-    display: none;
-    width: 10%;
-    color: #030303;
-  }
-  #aboutMe{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 1.5rem;
-
-
-  }
-  .gridRowSpan3{
-    grid-column: span 2;
-    grid-row-start: 4;
-  }
-  .profilePic{
-    grid-row: span 2;
-  }
-}
 
 .projButton{
   outline: 10;
@@ -504,7 +480,7 @@ span{
   width: 45%;
   font-weight: 600;
   border-radius: 4px;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   height: 7%;
   background-color: #9147ff;
   color: white;
@@ -553,3 +529,56 @@ span{
 }
 
 
+@media screen and (max-width: 800px) {
+  .navbubble{
+    width: 30%;
+    
+  }
+  .navbubble a:not(:first-child) {
+    display: none;
+    width: 10%;
+    color: #030303;
+  }
+  #aboutMe{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1.5rem;
+
+
+  }
+  .gridRowSpan3{
+    grid-column: span 2;
+    grid-row-start: 4;
+  }
+  .profilePic{
+    grid-row: span 2;
+  }
+
+  .card {
+    aspect-ratio: 1/.75;
+    border: 0.5vmin solid var(--border);
+    position: relative;
+    width:85%;
+    border-radius: 15px;
+    display: grid;
+    padding: 0px;
+
+  }
+  .projButton{
+    outline: 10;
+    padding-top: 10rem;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 3vw;
+    height: 12%;
+    background-color: #9147ff;
+    color: white;
+    padding: 20 20px;
+    right:-8vw;
+  
+  }
+}
