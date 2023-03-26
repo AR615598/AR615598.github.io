@@ -527,7 +527,12 @@ span{
 				0px 12px 10px -10px	rgba(0,0,0,0.05);
 	transform: translateY(2px);
 }
-
+#myIframe
+{
+    position: relative;
+    height: 35vmax;
+    width: 70vmax; 
+}
 
 @media screen and (max-width: 800px) {
   .navbubble{

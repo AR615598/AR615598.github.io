@@ -15,15 +15,7 @@ for (let i = 0; i < grids.length; i++) {
   });
 } 
 
-const blob = document.getElementById("blob");
-
-window.onpointermove = event => { 
-  const { clientX, clientY } = event;
-  
-  blob.animate({
-    left: `${clientX +40}px`,
-    top: `${clientY+40}px`
-  }, { duration: 3000, fill: "forwards" });
+function resizeIframe(obj) {
+  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
 }
-
 
