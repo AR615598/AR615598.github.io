@@ -1,0 +1,18 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.text-container{
+    width: 100%;
+}
+
+h1{
+    color: var(--bld_color);
+} 

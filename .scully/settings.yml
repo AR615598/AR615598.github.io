@@ -1,0 +1,11 @@
+identifier: mae1fdzalcb4g9o0
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: portfolio
+homeFolder: /Users/alex/github/AR615598.github.io
+distFolder: ./dist/portfolio/browser
+outDir: /Users/alex/github/AR615598.github.io/dist/static
+handle404: ''
+allowErrorCollect: true

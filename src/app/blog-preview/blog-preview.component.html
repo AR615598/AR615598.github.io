@@ -1,0 +1,15 @@
+<div class = "blog-preview-container">
+    <div class = "banner">
+            <div></div>
+            <p>{{ art.article_name }}</p>
+            <div></div>
+    </div>
+    <body class = "viewer-container">
+        <div class = "meta-data-container">
+            <p class = "meta-data-item">Date: {{art.date}}</p>
+            <p class = "meta-data-item">Tags: {{art.tags}}</p>
+        </div>
+        <div class = "content-container" [innerHTML] = art.content>
+        </div>
+    </body>
+</div>
