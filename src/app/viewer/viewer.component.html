@@ -1,0 +1,21 @@
+<div class = "container">
+    <div class = "banner">
+            <a [routerLink]="['/blog-component']" routerLinkActive="active" class="icon">
+                <svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linejoin="miter" fill="none"/>
+                    <path d="M9 12L21 12" stroke="currentColor" stroke-width="2" fill="none"/>
+                </svg>
+            </a>
+            <p>{{ art.article_name }}</p>
+            <div></div>
+    </div>
+    <body class = "viewer-container">
+        <div class = "meta-data-container">
+            <p class = "meta-data-item">Date: {{art.date}}</p>
+            <p class = "meta-data-item">Tags: {{art.tags}}</p>
+        </div>
+        <div class = "content-container" [innerHTML] = art.content>
+        </div>
+        <div class = "spacer"></div>
+    </body>
+</div>

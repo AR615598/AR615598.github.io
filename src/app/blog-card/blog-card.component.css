@@ -1,0 +1,55 @@
+.card {
+    width: 99%;
+    height: 2.5rem;
+    padding-left: 1%;
+    display: grid;
+    grid-template-columns: 50% 30% 15% 5%;
+    align-items: center;  
+    border-bottom: solid var(--text_color);
+    color: var(--text_color);
+    fill: var(--text_color);
+
+}
+.card.active{
+  background-color: #3A3A3A;   
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  background-color:rgba(255, 255, 255, 0.05);  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+.card.hidden{
+  display: none !important;
+}
+p{
+    margin: 0
+}
+.card-item{
+    overflow-x: scroll;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;  
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.icon {
+ will-change: transform;
+}
+
+.icon:hover{
+ fill: rgba(255, 255, 255, 0.7);
+ transform: scale3d(1.1, 1.1, 1);
+ transform-origin: center;
+ transition: all 0.2s ease;
+}
+
+.icon:active{
+ fill: rgba(255, 255, 255, 1);
+ transform: scale3d(.9, .9, 1);
+ transform-origin: center;
+ transition: all 0.2s ease;
+}

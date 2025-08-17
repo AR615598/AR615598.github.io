@@ -1,0 +1,3 @@
+<div class = "project-container">
+    @for (item of projects; track item.name) {<app-project-card [projectData] = item/>} @empty {<li>No projects found.</li>}
+</div>

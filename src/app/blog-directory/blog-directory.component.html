@@ -1,0 +1,14 @@
+<div class = search-bar>
+    <p class = 'search-item'>> </p>
+    <input id="search" type="text" [formControl]="search" class = 'search-item' autofocus  (keydown)="onKey($event)">
+</div>
+<div class=table-header>
+    <p class = 'search-item'>TITLE</p>
+    <p class = 'search-item'>TAGS</p>
+    <p class = 'search-item'>DATE</p>
+    <p class = 'search-item'></p>
+
+</div>
+<div class = blog-card-container>
+    <app-blog-card-container></app-blog-card-container>
+</div>

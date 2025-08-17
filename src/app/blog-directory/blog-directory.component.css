@@ -1,0 +1,51 @@
+.search-bar {
+  display: grid;
+  grid-template-columns: 1% 1fr;
+  height: 2rem;
+  width: 99%;
+  border-bottom: solid var(--text_color);
+  color: var(--text_color);
+  align-items: center;
+  padding-bottom: .5%;
+  padding-left: 1%;
+  column-gap:.75rem;
+}
+
+.search-item {
+  height: 100%;         
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;        
+  align-items: center;  
+  color: var(--text_color);
+}
+
+input{
+    background-color: var(--bg_color);
+    border: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+input:focus { 
+  outline: none;
+}
+
+
+.table-header{
+    width: 99%; 
+    height: 1.5rem;
+    border-bottom: solid var(--text_color);
+    display: grid;
+    grid-template-columns: 50% 30% 15% 5%;
+    padding-left: 1%;
+}
+
+.blog-card-container{
+  box-sizing: border-box;
+  max-height: calc(100% - (3rem + .5%));
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+

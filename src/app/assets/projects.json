@@ -1,0 +1,44 @@
+[
+  {
+    "image": "/",
+    "name": "Pantry Tracker App",
+    "short_description": "Android app to manage pantry inventory and grocery lists with dietary restriction filters.",
+    "link": "https://github.com/sasunilkumar/kitchenkompanion",
+    "tags": ["Kotlin", "CSS", "XML", "Android", "UI/UX"]
+  },
+  {
+    "image": "/",
+    "name": "Quiz Bowl QA Model",
+    "short_description": "Question answering model designed to answer long form pyramidal styled questions using BERT.",
+    "link": "https://github.com/AR615598/QuizBowl_QA",
+    "tags": ["Python", "NLP", "BERT", "Pyserini", "Machine Learning", "Optuna"]
+  },
+  {
+    "image": "/",
+    "name": "Personal Website",
+    "short_description": "Personal portfolio built with Angular with a blog, and project showcase. ",
+    "link": "https://AR615598.gitbub.io/",
+    "tags": ["HTML", "CSS", "JavaScript", "Angular", "UI/UX"]
+  },
+  {
+    "image": "/",
+    "name": "Classifying Cancer Cells",
+    "short_description": "An algorithmic approach for classifying cancer cells as benign or malignant in Python. ",
+    "link": "https://github.com/AR615598/Classifying_Cancer_Cells",
+    "tags": ["Python", "Data Analsis", "Data Cleaning","Machine Learning"]
+  },  
+  {
+    "image": "/",
+    "name": "Predicting Chess Cheating",
+    "short_description": "CMSC320, Analysis Lichess user and game data to extract likely cheaters in Python. ",
+    "link": "https://github.com/AR615598/Classifying_Cancer_Cells",
+    "tags": ["Python", "Data Analsis", "Data Cleaning", "Machine Learning"]
+  },
+  {
+    "image": "/",
+    "name": "EmotionNet",
+    "short_description": "Real-time facial emotion recognition system combining computer vision and multiple different classification models.",
+    "link": "https://github.com/AR615598/EmotionNet",
+    "tags": ["Python", "Computer Vision", "Deep Learning", "Emotion Recognition"]
+  }
+]
